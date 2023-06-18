@@ -130,7 +130,7 @@
                 <el-table-column property="average" label="Trung Bình Cộng"/>
             </el-table>
           <el-table
-              v-else
+              v-if="valueHocKy == 3"
               :data=" dataScoreAll "
               border
               class-name="mt-4"
