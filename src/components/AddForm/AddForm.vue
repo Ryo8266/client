@@ -23,9 +23,9 @@ export default {
       address: yup.string().required("Adress is required!"),
       numberPhone: yup.string().required("Number Phone is required!"),
       date: yup.string().required("date is required!"),
-      sex: yup.string().required("date is required!"),
-      className: yup.string().required("date is required!"),
-      fullName: yup.string().required("date is required!"),
+      sex: yup.string().required("sex is required!"),
+      className: yup.string().required("Class Name is required!"),
+      fullName: yup.string().required("Full Name is required!"),
     });
 
     return {
